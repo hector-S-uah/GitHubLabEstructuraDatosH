@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CodeLite_Workspace Name="LabEstructuraDatos" Database="" Version="10000">
-  <Project Name="ejemplo01" Path="ejemplo01/ejemplo01.project" Active="Yes"/>
+  <Project Name="ejemplo01" Path="ejemplo01/ejemplo01.project" Active="No"/>
   <Project Name="ejemplo02" Path="ejemplo02/ejemplo02.project" Active="No"/>
   <Project Name="ejemplo03" Path="ejemplo03/ejemplo03.project" Active="No"/>
   <Project Name="ejemplo04" Path="ejemplo04/ejemplo04.project" Active="No"/>
@@ -8,6 +8,12 @@
   <Project Name="ejemplo06" Path="ejemplo06/ejemplo06.project" Active="No"/>
   <Project Name="ejemplo07" Path="ejemplo07/ejemplo07.project" Active="No"/>
   <Project Name="ejemplo08" Path="ejemplo08/ejemplo08.project" Active="No"/>
+  <Project Name="ejemploPasoPorReferencia" Path="ejemploPasoPorReferencia/ejemploPasoPorReferencia.project" Active="No"/>
+  <Project Name="ejemploPasoDeArgumentos" Path="ejemploPasoDeArgumentos/ejemploPasoDeArgumentos.project" Active="No"/>
+  <Project Name="ejemplo09" Path="ejemplo09/ejemplo09.project" Active="No"/>
+  <Project Name="ejemplo10" Path="ejemplo10/ejemplo10.project" Active="No"/>
+  <Project Name="ejemplo11" Path="ejemplo11/ejemplo11.project" Active="No"/>
+  <Project Name="ejemplo12" Path="ejemplo12/ejemplo12.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug">
       <Environment/>
@@ -19,6 +25,12 @@
       <Project Name="ejemplo06" ConfigName="Debug"/>
       <Project Name="ejemplo07" ConfigName="Debug"/>
       <Project Name="ejemplo08" ConfigName="Debug"/>
+      <Project Name="ejemploPasoPorReferencia" ConfigName="Debug"/>
+      <Project Name="ejemploPasoDeArgumentos" ConfigName="Debug"/>
+      <Project Name="ejemplo09" ConfigName="Debug"/>
+      <Project Name="ejemplo10" ConfigName="Debug"/>
+      <Project Name="ejemplo11" ConfigName="Debug"/>
+      <Project Name="ejemplo12" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release">
       <Environment/>
@@ -30,6 +42,12 @@
       <Project Name="ejemplo06" ConfigName="Release"/>
       <Project Name="ejemplo07" ConfigName="Release"/>
       <Project Name="ejemplo08" ConfigName="Release"/>
+      <Project Name="ejemploPasoPorReferencia" ConfigName="Release"/>
+      <Project Name="ejemploPasoDeArgumentos" ConfigName="Release"/>
+      <Project Name="ejemplo09" ConfigName="Release"/>
+      <Project Name="ejemplo10" ConfigName="Release"/>
+      <Project Name="ejemplo11" ConfigName="Release"/>
+      <Project Name="ejemplo12" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
