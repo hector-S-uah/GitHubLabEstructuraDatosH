@@ -1,0 +1,1 @@
+../build-Debug/ejemploColas/Cola.cpp.o ../build-Debug/ejemploColas/NodoCola.cpp.o ../build-Debug/ejemploColas/main.cpp.o   

@@ -1,27 +1,103 @@
 [{
-  "file": "C:\\Users\\vecto\\Documents\\LabEstructuraDatos\\ejemplo07\\main.cpp",
-  "directory": "C:\\Users\\vecto\\Documents\\LabEstructuraDatos\\ejemplo07",
-  "command": "clang++ -c C:\\Users\\vecto\\Documents\\LabEstructuraDatos\\ejemplo07\\main.cpp -o C:\\Users\\vecto\\Documents\\LabEstructuraDatos\\ejemplo07\\main.cpp.o  -I. -I.  -gdwarf-2  -O0  -Wall"
+  "file": "C:\\Users\\vecto\\Documents\\LabEstructuraDatos\\ejemploCola\\Cola.hpp",
+  "directory": "C:\\Users\\vecto\\Documents\\LabEstructuraDatos\\ejemploCola",
+  "command": "clang++ -c C:\\Users\\vecto\\Documents\\LabEstructuraDatos\\ejemploCola\\Cola.hpp -o C:\\Users\\vecto\\Documents\\LabEstructuraDatos\\ejemploCola\\Cola.hpp.o  -I. -I.  -gdwarf-2  -O0  -Wall"
  }, {
-  "file": "C:\\Users\\vecto\\Documents\\LabEstructuraDatos\\ejemplo06\\main.cpp",
-  "directory": "C:\\Users\\vecto\\Documents\\LabEstructuraDatos\\ejemplo06",
-  "command": "clang++ -c C:\\Users\\vecto\\Documents\\LabEstructuraDatos\\ejemplo06\\main.cpp -o C:\\Users\\vecto\\Documents\\LabEstructuraDatos\\ejemplo06\\main.cpp.o  -I. -I.  -gdwarf-2  -O0  -Wall"
+  "file": "C:\\Users\\vecto\\Documents\\LabEstructuraDatos\\ejemploCola\\NodoCola.hpp",
+  "directory": "C:\\Users\\vecto\\Documents\\LabEstructuraDatos\\ejemploCola",
+  "command": "clang++ -c C:\\Users\\vecto\\Documents\\LabEstructuraDatos\\ejemploCola\\NodoCola.hpp -o C:\\Users\\vecto\\Documents\\LabEstructuraDatos\\ejemploCola\\NodoCola.hpp.o  -I. -I.  -gdwarf-2  -O0  -Wall"
  }, {
-  "file": "C:\\Users\\vecto\\Documents\\LabEstructuraDatos\\ejemplo02\\main.cpp",
-  "directory": "C:\\Users\\vecto\\Documents\\LabEstructuraDatos\\ejemplo02",
-  "command": "clang++ -c C:\\Users\\vecto\\Documents\\LabEstructuraDatos\\ejemplo02\\main.cpp -o C:\\Users\\vecto\\Documents\\LabEstructuraDatos\\ejemplo02\\main.cpp.o  -I. -I.  -gdwarf-2  -O0  -Wall"
+  "file": "C:\\Users\\vecto\\Documents\\LabEstructuraDatos\\ejemploCola\\Cola.cpp",
+  "directory": "C:\\Users\\vecto\\Documents\\LabEstructuraDatos\\ejemploCola",
+  "command": "clang++ -c C:\\Users\\vecto\\Documents\\LabEstructuraDatos\\ejemploCola\\Cola.cpp -o C:\\Users\\vecto\\Documents\\LabEstructuraDatos\\ejemploCola\\Cola.cpp.o  -I. -I.  -gdwarf-2  -O0  -Wall"
+ }, {
+  "file": "C:\\Users\\vecto\\Documents\\LabEstructuraDatos\\ejemploCola\\NodoCola.cpp",
+  "directory": "C:\\Users\\vecto\\Documents\\LabEstructuraDatos\\ejemploCola",
+  "command": "clang++ -c C:\\Users\\vecto\\Documents\\LabEstructuraDatos\\ejemploCola\\NodoCola.cpp -o C:\\Users\\vecto\\Documents\\LabEstructuraDatos\\ejemploCola\\NodoCola.cpp.o  -I. -I.  -gdwarf-2  -O0  -Wall"
+ }, {
+  "file": "C:\\Users\\vecto\\Documents\\LabEstructuraDatos\\ejemploCola\\main.cpp",
+  "directory": "C:\\Users\\vecto\\Documents\\LabEstructuraDatos\\ejemploCola",
+  "command": "clang++ -c C:\\Users\\vecto\\Documents\\LabEstructuraDatos\\ejemploCola\\main.cpp -o C:\\Users\\vecto\\Documents\\LabEstructuraDatos\\ejemploCola\\main.cpp.o  -I. -I.  -gdwarf-2  -O0  -Wall"
+ }, {
+  "file": "C:\\Users\\vecto\\Documents\\LabEstructuraDatos\\ejemploPila\\NodoPila.hpp",
+  "directory": "C:\\Users\\vecto\\Documents\\LabEstructuraDatos\\ejemploPila",
+  "command": "clang++ -c C:\\Users\\vecto\\Documents\\LabEstructuraDatos\\ejemploPila\\NodoPila.hpp -o C:\\Users\\vecto\\Documents\\LabEstructuraDatos\\ejemploPila\\NodoPila.hpp.o  -I. -I.  -gdwarf-2  -O0  -Wall"
+ }, {
+  "file": "C:\\Users\\vecto\\Documents\\LabEstructuraDatos\\ejemploPila\\Pila.hpp",
+  "directory": "C:\\Users\\vecto\\Documents\\LabEstructuraDatos\\ejemploPila",
+  "command": "clang++ -c C:\\Users\\vecto\\Documents\\LabEstructuraDatos\\ejemploPila\\Pila.hpp -o C:\\Users\\vecto\\Documents\\LabEstructuraDatos\\ejemploPila\\Pila.hpp.o  -I. -I.  -gdwarf-2  -O0  -Wall"
+ }, {
+  "file": "C:\\Users\\vecto\\Documents\\LabEstructuraDatos\\ejemploPila\\Pila.cpp",
+  "directory": "C:\\Users\\vecto\\Documents\\LabEstructuraDatos\\ejemploPila",
+  "command": "clang++ -c C:\\Users\\vecto\\Documents\\LabEstructuraDatos\\ejemploPila\\Pila.cpp -o C:\\Users\\vecto\\Documents\\LabEstructuraDatos\\ejemploPila\\Pila.cpp.o  -I. -I.  -gdwarf-2  -O0  -Wall"
+ }, {
+  "file": "C:\\Users\\vecto\\Documents\\LabEstructuraDatos\\ejemploPila\\NodoPila.cpp",
+  "directory": "C:\\Users\\vecto\\Documents\\LabEstructuraDatos\\ejemploPila",
+  "command": "clang++ -c C:\\Users\\vecto\\Documents\\LabEstructuraDatos\\ejemploPila\\NodoPila.cpp -o C:\\Users\\vecto\\Documents\\LabEstructuraDatos\\ejemploPila\\NodoPila.cpp.o  -I. -I.  -gdwarf-2  -O0  -Wall"
+ }, {
+  "file": "C:\\Users\\vecto\\Documents\\LabEstructuraDatos\\ejemploPila\\main.cpp",
+  "directory": "C:\\Users\\vecto\\Documents\\LabEstructuraDatos\\ejemploPila",
+  "command": "clang++ -c C:\\Users\\vecto\\Documents\\LabEstructuraDatos\\ejemploPila\\main.cpp -o C:\\Users\\vecto\\Documents\\LabEstructuraDatos\\ejemploPila\\main.cpp.o  -I. -I.  -gdwarf-2  -O0  -Wall"
+ }, {
+  "file": "C:\\Users\\vecto\\Documents\\LabEstructuraDatos\\ejemplo13\\Persona.hpp",
+  "directory": "C:\\Users\\vecto\\Documents\\LabEstructuraDatos\\ejemplo13",
+  "command": "clang++ -c C:\\Users\\vecto\\Documents\\LabEstructuraDatos\\ejemplo13\\Persona.hpp -o C:\\Users\\vecto\\Documents\\LabEstructuraDatos\\ejemplo13\\Persona.hpp.o  -I. -I.  -gdwarf-2  -O0  -Wall"
+ }, {
+  "file": "C:\\Users\\vecto\\Documents\\LabEstructuraDatos\\ejemplo13\\Persona.cpp",
+  "directory": "C:\\Users\\vecto\\Documents\\LabEstructuraDatos\\ejemplo13",
+  "command": "clang++ -c C:\\Users\\vecto\\Documents\\LabEstructuraDatos\\ejemplo13\\Persona.cpp -o C:\\Users\\vecto\\Documents\\LabEstructuraDatos\\ejemplo13\\Persona.cpp.o  -I. -I.  -gdwarf-2  -O0  -Wall"
+ }, {
+  "file": "C:\\Users\\vecto\\Documents\\LabEstructuraDatos\\ejemplo13\\main.cpp",
+  "directory": "C:\\Users\\vecto\\Documents\\LabEstructuraDatos\\ejemplo13",
+  "command": "clang++ -c C:\\Users\\vecto\\Documents\\LabEstructuraDatos\\ejemplo13\\main.cpp -o C:\\Users\\vecto\\Documents\\LabEstructuraDatos\\ejemplo13\\main.cpp.o  -I. -I.  -gdwarf-2  -O0  -Wall"
+ }, {
+  "file": "C:\\Users\\vecto\\Documents\\LabEstructuraDatos\\ejemplo10\\main.cpp",
+  "directory": "C:\\Users\\vecto\\Documents\\LabEstructuraDatos\\ejemplo10",
+  "command": "clang++ -c C:\\Users\\vecto\\Documents\\LabEstructuraDatos\\ejemplo10\\main.cpp -o C:\\Users\\vecto\\Documents\\LabEstructuraDatos\\ejemplo10\\main.cpp.o  -I. -I.  -gdwarf-2  -O0  -Wall"
+ }, {
+  "file": "C:\\Users\\vecto\\Documents\\LabEstructuraDatos\\ejemplo12\\main.cpp",
+  "directory": "C:\\Users\\vecto\\Documents\\LabEstructuraDatos\\ejemplo12",
+  "command": "clang++ -c C:\\Users\\vecto\\Documents\\LabEstructuraDatos\\ejemplo12\\main.cpp -o C:\\Users\\vecto\\Documents\\LabEstructuraDatos\\ejemplo12\\main.cpp.o  -I. -I.  -gdwarf-2  -O0  -Wall"
  }, {
   "file": "C:\\Users\\vecto\\Documents\\LabEstructuraDatos\\ejemplo05\\main.cpp",
   "directory": "C:\\Users\\vecto\\Documents\\LabEstructuraDatos\\ejemplo05",
   "command": "clang++ -c C:\\Users\\vecto\\Documents\\LabEstructuraDatos\\ejemplo05\\main.cpp -o C:\\Users\\vecto\\Documents\\LabEstructuraDatos\\ejemplo05\\main.cpp.o  -I. -I.  -gdwarf-2  -O0  -Wall"
  }, {
-  "file": "C:\\Users\\vecto\\Documents\\LabEstructuraDatos\\ejemplo04\\main.cpp",
-  "directory": "C:\\Users\\vecto\\Documents\\LabEstructuraDatos\\ejemplo04",
-  "command": "clang++ -c C:\\Users\\vecto\\Documents\\LabEstructuraDatos\\ejemplo04\\main.cpp -o C:\\Users\\vecto\\Documents\\LabEstructuraDatos\\ejemplo04\\main.cpp.o  -I. -I.  -gdwarf-2  -O0  -Wall"
+  "file": "C:\\Users\\vecto\\Documents\\LabEstructuraDatos\\ejemplo09\\main.cpp",
+  "directory": "C:\\Users\\vecto\\Documents\\LabEstructuraDatos\\ejemplo09",
+  "command": "clang++ -c C:\\Users\\vecto\\Documents\\LabEstructuraDatos\\ejemplo09\\main.cpp -o C:\\Users\\vecto\\Documents\\LabEstructuraDatos\\ejemplo09\\main.cpp.o  -I. -I.  -gdwarf-2  -O0  -Wall"
+ }, {
+  "file": "C:\\Users\\vecto\\Documents\\LabEstructuraDatos\\ejemploPasoPorReferencia\\main.cpp",
+  "directory": "C:\\Users\\vecto\\Documents\\LabEstructuraDatos\\ejemploPasoPorReferencia",
+  "command": "clang++ -c C:\\Users\\vecto\\Documents\\LabEstructuraDatos\\ejemploPasoPorReferencia\\main.cpp -o C:\\Users\\vecto\\Documents\\LabEstructuraDatos\\ejemploPasoPorReferencia\\main.cpp.o  -I. -I.  -gdwarf-2  -O0  -Wall"
+ }, {
+  "file": "C:\\Users\\vecto\\Documents\\LabEstructuraDatos\\ejemplo07\\main.cpp",
+  "directory": "C:\\Users\\vecto\\Documents\\LabEstructuraDatos\\ejemplo07",
+  "command": "clang++ -c C:\\Users\\vecto\\Documents\\LabEstructuraDatos\\ejemplo07\\main.cpp -o C:\\Users\\vecto\\Documents\\LabEstructuraDatos\\ejemplo07\\main.cpp.o  -I. -I.  -gdwarf-2  -O0  -Wall"
+ }, {
+  "file": "C:\\Users\\vecto\\Documents\\LabEstructuraDatos\\ejemploPasoDeArgumentos\\main.cpp",
+  "directory": "C:\\Users\\vecto\\Documents\\LabEstructuraDatos\\ejemploPasoDeArgumentos",
+  "command": "clang++ -c C:\\Users\\vecto\\Documents\\LabEstructuraDatos\\ejemploPasoDeArgumentos\\main.cpp -o C:\\Users\\vecto\\Documents\\LabEstructuraDatos\\ejemploPasoDeArgumentos\\main.cpp.o  -I. -I.  -gdwarf-2  -O0  -Wall"
+ }, {
+  "file": "C:\\Users\\vecto\\Documents\\LabEstructuraDatos\\ejemplo06\\main.cpp",
+  "directory": "C:\\Users\\vecto\\Documents\\LabEstructuraDatos\\ejemplo06",
+  "command": "clang++ -c C:\\Users\\vecto\\Documents\\LabEstructuraDatos\\ejemplo06\\main.cpp -o C:\\Users\\vecto\\Documents\\LabEstructuraDatos\\ejemplo06\\main.cpp.o  -I. -I.  -gdwarf-2  -O0  -Wall"
+ }, {
+  "file": "C:\\Users\\vecto\\Documents\\LabEstructuraDatos\\ejemplo11\\main.cpp",
+  "directory": "C:\\Users\\vecto\\Documents\\LabEstructuraDatos\\ejemplo11",
+  "command": "clang++ -c C:\\Users\\vecto\\Documents\\LabEstructuraDatos\\ejemplo11\\main.cpp -o C:\\Users\\vecto\\Documents\\LabEstructuraDatos\\ejemplo11\\main.cpp.o  -I. -I.  -gdwarf-2  -O0  -Wall"
  }, {
   "file": "C:\\Users\\vecto\\Documents\\LabEstructuraDatos\\ejemplo03\\main.cpp",
   "directory": "C:\\Users\\vecto\\Documents\\LabEstructuraDatos\\ejemplo03",
   "command": "clang++ -c C:\\Users\\vecto\\Documents\\LabEstructuraDatos\\ejemplo03\\main.cpp -o C:\\Users\\vecto\\Documents\\LabEstructuraDatos\\ejemplo03\\main.cpp.o  -I. -I.  -gdwarf-2  -O0  -Wall"
+ }, {
+  "file": "C:\\Users\\vecto\\Documents\\LabEstructuraDatos\\ejemplo02\\main.cpp",
+  "directory": "C:\\Users\\vecto\\Documents\\LabEstructuraDatos\\ejemplo02",
+  "command": "clang++ -c C:\\Users\\vecto\\Documents\\LabEstructuraDatos\\ejemplo02\\main.cpp -o C:\\Users\\vecto\\Documents\\LabEstructuraDatos\\ejemplo02\\main.cpp.o  -I. -I.  -gdwarf-2  -O0  -Wall"
+ }, {
+  "file": "C:\\Users\\vecto\\Documents\\LabEstructuraDatos\\ejemplo04\\main.cpp",
+  "directory": "C:\\Users\\vecto\\Documents\\LabEstructuraDatos\\ejemplo04",
+  "command": "clang++ -c C:\\Users\\vecto\\Documents\\LabEstructuraDatos\\ejemplo04\\main.cpp -o C:\\Users\\vecto\\Documents\\LabEstructuraDatos\\ejemplo04\\main.cpp.o  -I. -I.  -gdwarf-2  -O0  -Wall"
  }, {
   "file": "C:\\Users\\vecto\\Documents\\LabEstructuraDatos\\ejemplo08\\main.cpp",
   "directory": "C:\\Users\\vecto\\Documents\\LabEstructuraDatos\\ejemplo08",
