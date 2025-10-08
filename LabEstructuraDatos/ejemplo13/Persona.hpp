@@ -1,24 +1,25 @@
 #ifndef PERSONA_HPP
 #define PERSONA_HPP
 
-#include <iostream>
 #include <cstring>
+#include <iostream>
 using namespace std;
 
-class Persona {
-private:
-    bool genero;      // 1 = Mujer, 0 = Hombre
-    int edad;
-    char dni[10];
-
+class Persona
+{
 public:
-    Persona(int edad, bool genero, const char* dni);
-    ~Persona();
-
-    int getEdad();
-    bool esMujer();
+    Persona(int edad);
+    int getEdad(); 
+	bool esMujer();
     void setEdad(int edad);
     void mostrar();
+    ~Persona();
+
+private:
+    bool genero;
+    int edad;
+    char DNI[10];
+    void generarDNI();
 };
 
 #endif

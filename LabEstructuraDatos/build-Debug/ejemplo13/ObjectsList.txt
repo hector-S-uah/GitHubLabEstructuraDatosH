@@ -1,1 +1,0 @@
-../build-Debug/ejemplo13/Persona.cpp.o ../build-Debug/ejemplo13/main.cpp.o   

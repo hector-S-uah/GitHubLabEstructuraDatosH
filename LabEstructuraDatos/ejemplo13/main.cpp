@@ -1,24 +1,27 @@
-#include "Persona.hpp"
-#include <cstdlib>
-#include <ctime>
+#include <iostream>
+#include <Persona.hpp>
+#include <algorithm>
+using namespace std;
 
-int main() {
-    srand(time(0));
-    Persona* personas[10];
-
-    int edades[10];
-    for(int i = 0; i < 10; i++) {
-        bool genero = rand() % 2;
-        int edad = 18 + i; // edades distintas entre 18 y 27
-        char dni[10];
-        sprintf(dni, "1234%c", 'A' + i);
-        personas[i] = new Persona(edad, genero, dni);
+int main(int argc, char** argv) {
+    int n=10;
+    int a[n];
+    cout <<"Array de edades ordenado: " << endl;
+    for(int i = 0, i < n, ++i) {
+        a[i] = i+18;
+        cout << a[i] << " ";
     }
-
-    for(int i = 0; i < 10; i++) {
-        personas[i]->mostrar();
-        delete personas[i];
+    cout << endl<< endl;
+    cout <<"Array de edades desordenado: " << endl;
+    random_shuffle(a, a + n);
+    for(int i = 0, i < n, ++i) {
+        cout << a[i] << " ";
     }
-
+    cout << endl << endl;
+    for(int i = 0, i < n, ++i) {
+        Persona* p = new Persona(a[i]);
+        p->mostrar();
+    }
+    cout << endl;
     return 0;
 }

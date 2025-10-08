@@ -14,9 +14,9 @@
   <Project Name="ejemplo10" Path="ejemplo10/ejemplo10.project" Active="No"/>
   <Project Name="ejemplo11" Path="ejemplo11/ejemplo11.project" Active="No"/>
   <Project Name="ejemplo12" Path="ejemplo12/ejemplo12.project" Active="No"/>
-  <Project Name="ejemplo13" Path="ejemplo13/ejemplo13.project" Active="No"/>
+  <Project Name="ejemplo13" Path="ejemplo13/ejemplo13.project" Active="Yes"/>
   <Project Name="ejemploPila" Path="ejemploPila/ejemploPila.project" Active="No"/>
-  <Project Name="ejemploCola" Path="ejemploCola/ejemploCola.project" Active="Yes"/>
+  <Project Name="ejemploCola" Path="ejemploCola/ejemploCola.project" Active="No"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug">
       <Environment/>

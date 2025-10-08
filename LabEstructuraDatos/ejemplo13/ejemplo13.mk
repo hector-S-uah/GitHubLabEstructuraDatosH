@@ -6,15 +6,15 @@
 ProjectName            :=ejemplo13
 ConfigurationName      :=Debug
 WorkspaceConfiguration :=Debug
-WorkspacePath          :=C:/Users/vecto/Documents/LabEstructuraDatos
-ProjectPath            :=C:/Users/vecto/Documents/LabEstructuraDatos/ejemplo13
+WorkspacePath          :=C:/Users/vecto/Documents/GitHubLabEstructuraDatosH/LabEstructuraDatos
+ProjectPath            :=C:/Users/vecto/Documents/GitHubLabEstructuraDatosH/LabEstructuraDatos/ejemplo13
 IntermediateDirectory  :=../build-$(WorkspaceConfiguration)/ejemplo13
 OutDir                 :=$(IntermediateDirectory)
 CurrentFileName        :=
 CurrentFilePath        :=
 CurrentFileFullPath    :=
 User                   :=vecto
-Date                   :=10/2/2025
+Date                   :=10/8/2025
 CodeLitePath           :=C:/Users/vecto/Downloads/codelite-amd64-17.0.0/codelite-amd64-17.0.0/codelite
 MakeDirCommand         :=mkdir
 LinkerName             :=g++
@@ -29,7 +29,7 @@ OutputSwitch           :=-o
 LibraryPathSwitch      :=-L
 PreprocessorSwitch     :=-D
 SourceSwitch           :=-c 
-OutputDirectory        :=C:/Users/vecto/Documents/LabEstructuraDatos/build-$(WorkspaceConfiguration)/bin
+OutputDirectory        :=C:/Users/vecto/Documents/GitHubLabEstructuraDatosH/LabEstructuraDatos/build-$(WorkspaceConfiguration)/bin
 OutputFile             :=..\build-$(WorkspaceConfiguration)\bin\$(ProjectName).exe
 Preprocessors          :=
 ObjectSwitch           :=-o 
@@ -96,12 +96,12 @@ PreBuild:
 ## Objects
 ##
 $(IntermediateDirectory)/Persona.cpp$(ObjectSuffix): Persona.cpp 
-	$(CXX) $(IncludePCH) $(SourceSwitch) "C:/Users/vecto/Documents/LabEstructuraDatos/ejemplo13/Persona.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/Persona.cpp$(ObjectSuffix) $(IncludePath)
+	$(CXX) $(IncludePCH) $(SourceSwitch) "C:/Users/vecto/Documents/GitHubLabEstructuraDatosH/LabEstructuraDatos/ejemplo13/Persona.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/Persona.cpp$(ObjectSuffix) $(IncludePath)
 $(IntermediateDirectory)/Persona.cpp$(PreprocessSuffix): Persona.cpp
 	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/Persona.cpp$(PreprocessSuffix) Persona.cpp
 
 $(IntermediateDirectory)/main.cpp$(ObjectSuffix): main.cpp 
-	$(CXX) $(IncludePCH) $(SourceSwitch) "C:/Users/vecto/Documents/LabEstructuraDatos/ejemplo13/main.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.cpp$(ObjectSuffix) $(IncludePath)
+	$(CXX) $(IncludePCH) $(SourceSwitch) "C:/Users/vecto/Documents/GitHubLabEstructuraDatosH/LabEstructuraDatos/ejemplo13/main.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.cpp$(ObjectSuffix) $(IncludePath)
 $(IntermediateDirectory)/main.cpp$(PreprocessSuffix): main.cpp
 	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/main.cpp$(PreprocessSuffix) main.cpp
 

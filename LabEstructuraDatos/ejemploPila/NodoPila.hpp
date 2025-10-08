@@ -13,7 +13,7 @@ public:
 private:
     int valor;
     NodoPila* siguiente;
-    friend class Pila;
+    friend class Pila; // permite acceder a los atributos privados (no abusar de friend class)
 };
 
 typedef NodoPila* pnodoPila;
