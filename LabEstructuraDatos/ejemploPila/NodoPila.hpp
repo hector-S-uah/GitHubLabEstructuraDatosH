@@ -2,6 +2,7 @@
 #define NODOPILA_HPP
 
 #include <iostream>
+#include "Persona.hpp"
 using namespace std;
 
 class NodoPila

@@ -1,7 +1,7 @@
 #ifndef PERSONA_HPP
 #define PERSONA_HPP
 
-#include <cstring>
+#include <string>
 #include <iostream>
 using namespace std;
 
@@ -9,7 +9,7 @@ class Persona
 {
 public:
     Persona(int edad);
-    int getEdad(); 
+    int getEdad();
 	bool esMujer();
     void setEdad(int edad);
     void mostrar();
@@ -20,6 +20,7 @@ private:
     int edad;
     char DNI[10];
     void generarDNI();
+	friend class NodoPila;
 };
 
 #endif

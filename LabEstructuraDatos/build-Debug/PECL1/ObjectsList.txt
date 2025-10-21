@@ -1,0 +1,1 @@
+../build-Debug/PECL1/Lista.cpp.o ../build-Debug/PECL1/main.cpp.o ../build-Debug/PECL1/Aficionado.cpp.o ../build-Debug/PECL1/Pila.cpp.o ../build-Debug/PECL1/NodoCola.cpp.o ../build-Debug/PECL1/NodoPila.cpp.o ../build-Debug/PECL1/NodoLista.cpp.o ../build-Debug/PECL1/Gestor.cpp.o ../build-Debug/PECL1/Cola.cpp.o   

@@ -7,18 +7,18 @@ int main(int argc, char** argv) {
     int n=10;
     int a[n];
     cout <<"Array de edades ordenado: " << endl;
-    for(int i = 0, i < n, ++i) {
+    for(int i = 0; i < n; ++i) {
         a[i] = i+18;
         cout << a[i] << " ";
     }
     cout << endl<< endl;
     cout <<"Array de edades desordenado: " << endl;
     random_shuffle(a, a + n);
-    for(int i = 0, i < n, ++i) {
+    for(int i = 0; i < n; ++i) {
         cout << a[i] << " ";
     }
     cout << endl << endl;
-    for(int i = 0, i < n, ++i) {
+    for(int i = 0; i < n; ++i) {
         Persona* p = new Persona(a[i]);
         p->mostrar();
     }

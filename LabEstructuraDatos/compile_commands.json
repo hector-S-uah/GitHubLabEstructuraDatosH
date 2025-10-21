@@ -1,4 +1,72 @@
 [{
+  "file": "C:\\Users\\vecto\\Documents\\GitHubLabEstructuraDatosH\\LabEstructuraDatos\\PECL1\\Aficionado.hpp",
+  "directory": "C:\\Users\\vecto\\Documents\\GitHubLabEstructuraDatosH\\LabEstructuraDatos\\PECL1",
+  "command": "clang++ -c C:\\Users\\vecto\\Documents\\GitHubLabEstructuraDatosH\\LabEstructuraDatos\\PECL1\\Aficionado.hpp -o C:\\Users\\vecto\\Documents\\GitHubLabEstructuraDatosH\\LabEstructuraDatos\\PECL1\\Aficionado.hpp.o  -I. -I.  -gdwarf-2  -O0  -Wall"
+ }, {
+  "file": "C:\\Users\\vecto\\Documents\\GitHubLabEstructuraDatosH\\LabEstructuraDatos\\PECL1\\Cola.hpp",
+  "directory": "C:\\Users\\vecto\\Documents\\GitHubLabEstructuraDatosH\\LabEstructuraDatos\\PECL1",
+  "command": "clang++ -c C:\\Users\\vecto\\Documents\\GitHubLabEstructuraDatosH\\LabEstructuraDatos\\PECL1\\Cola.hpp -o C:\\Users\\vecto\\Documents\\GitHubLabEstructuraDatosH\\LabEstructuraDatos\\PECL1\\Cola.hpp.o  -I. -I.  -gdwarf-2  -O0  -Wall"
+ }, {
+  "file": "C:\\Users\\vecto\\Documents\\GitHubLabEstructuraDatosH\\LabEstructuraDatos\\PECL1\\Lista.hpp",
+  "directory": "C:\\Users\\vecto\\Documents\\GitHubLabEstructuraDatosH\\LabEstructuraDatos\\PECL1",
+  "command": "clang++ -c C:\\Users\\vecto\\Documents\\GitHubLabEstructuraDatosH\\LabEstructuraDatos\\PECL1\\Lista.hpp -o C:\\Users\\vecto\\Documents\\GitHubLabEstructuraDatosH\\LabEstructuraDatos\\PECL1\\Lista.hpp.o  -I. -I.  -gdwarf-2  -O0  -Wall"
+ }, {
+  "file": "C:\\Users\\vecto\\Documents\\GitHubLabEstructuraDatosH\\LabEstructuraDatos\\PECL1\\NodoCola.hpp",
+  "directory": "C:\\Users\\vecto\\Documents\\GitHubLabEstructuraDatosH\\LabEstructuraDatos\\PECL1",
+  "command": "clang++ -c C:\\Users\\vecto\\Documents\\GitHubLabEstructuraDatosH\\LabEstructuraDatos\\PECL1\\NodoCola.hpp -o C:\\Users\\vecto\\Documents\\GitHubLabEstructuraDatosH\\LabEstructuraDatos\\PECL1\\NodoCola.hpp.o  -I. -I.  -gdwarf-2  -O0  -Wall"
+ }, {
+  "file": "C:\\Users\\vecto\\Documents\\GitHubLabEstructuraDatosH\\LabEstructuraDatos\\PECL1\\NodoLista.hpp",
+  "directory": "C:\\Users\\vecto\\Documents\\GitHubLabEstructuraDatosH\\LabEstructuraDatos\\PECL1",
+  "command": "clang++ -c C:\\Users\\vecto\\Documents\\GitHubLabEstructuraDatosH\\LabEstructuraDatos\\PECL1\\NodoLista.hpp -o C:\\Users\\vecto\\Documents\\GitHubLabEstructuraDatosH\\LabEstructuraDatos\\PECL1\\NodoLista.hpp.o  -I. -I.  -gdwarf-2  -O0  -Wall"
+ }, {
+  "file": "C:\\Users\\vecto\\Documents\\GitHubLabEstructuraDatosH\\LabEstructuraDatos\\PECL1\\Lista.cpp",
+  "directory": "C:\\Users\\vecto\\Documents\\GitHubLabEstructuraDatosH\\LabEstructuraDatos\\PECL1",
+  "command": "clang++ -c C:\\Users\\vecto\\Documents\\GitHubLabEstructuraDatosH\\LabEstructuraDatos\\PECL1\\Lista.cpp -o C:\\Users\\vecto\\Documents\\GitHubLabEstructuraDatosH\\LabEstructuraDatos\\PECL1\\Lista.cpp.o  -I. -I.  -gdwarf-2  -O0  -Wall"
+ }, {
+  "file": "C:\\Users\\vecto\\Documents\\GitHubLabEstructuraDatosH\\LabEstructuraDatos\\PECL1\\Pila.hpp",
+  "directory": "C:\\Users\\vecto\\Documents\\GitHubLabEstructuraDatosH\\LabEstructuraDatos\\PECL1",
+  "command": "clang++ -c C:\\Users\\vecto\\Documents\\GitHubLabEstructuraDatosH\\LabEstructuraDatos\\PECL1\\Pila.hpp -o C:\\Users\\vecto\\Documents\\GitHubLabEstructuraDatosH\\LabEstructuraDatos\\PECL1\\Pila.hpp.o  -I. -I.  -gdwarf-2  -O0  -Wall"
+ }, {
+  "file": "C:\\Users\\vecto\\Documents\\GitHubLabEstructuraDatosH\\LabEstructuraDatos\\PECL1\\NodoPila.hpp",
+  "directory": "C:\\Users\\vecto\\Documents\\GitHubLabEstructuraDatosH\\LabEstructuraDatos\\PECL1",
+  "command": "clang++ -c C:\\Users\\vecto\\Documents\\GitHubLabEstructuraDatosH\\LabEstructuraDatos\\PECL1\\NodoPila.hpp -o C:\\Users\\vecto\\Documents\\GitHubLabEstructuraDatosH\\LabEstructuraDatos\\PECL1\\NodoPila.hpp.o  -I. -I.  -gdwarf-2  -O0  -Wall"
+ }, {
+  "file": "C:\\Users\\vecto\\Documents\\GitHubLabEstructuraDatosH\\LabEstructuraDatos\\PECL1\\Gestor.hpp",
+  "directory": "C:\\Users\\vecto\\Documents\\GitHubLabEstructuraDatosH\\LabEstructuraDatos\\PECL1",
+  "command": "clang++ -c C:\\Users\\vecto\\Documents\\GitHubLabEstructuraDatosH\\LabEstructuraDatos\\PECL1\\Gestor.hpp -o C:\\Users\\vecto\\Documents\\GitHubLabEstructuraDatosH\\LabEstructuraDatos\\PECL1\\Gestor.hpp.o  -I. -I.  -gdwarf-2  -O0  -Wall"
+ }, {
+  "file": "C:\\Users\\vecto\\Documents\\GitHubLabEstructuraDatosH\\LabEstructuraDatos\\PECL1\\main.cpp",
+  "directory": "C:\\Users\\vecto\\Documents\\GitHubLabEstructuraDatosH\\LabEstructuraDatos\\PECL1",
+  "command": "clang++ -c C:\\Users\\vecto\\Documents\\GitHubLabEstructuraDatosH\\LabEstructuraDatos\\PECL1\\main.cpp -o C:\\Users\\vecto\\Documents\\GitHubLabEstructuraDatosH\\LabEstructuraDatos\\PECL1\\main.cpp.o  -I. -I.  -gdwarf-2  -O0  -Wall"
+ }, {
+  "file": "C:\\Users\\vecto\\Documents\\GitHubLabEstructuraDatosH\\LabEstructuraDatos\\PECL1\\Aficionado.cpp",
+  "directory": "C:\\Users\\vecto\\Documents\\GitHubLabEstructuraDatosH\\LabEstructuraDatos\\PECL1",
+  "command": "clang++ -c C:\\Users\\vecto\\Documents\\GitHubLabEstructuraDatosH\\LabEstructuraDatos\\PECL1\\Aficionado.cpp -o C:\\Users\\vecto\\Documents\\GitHubLabEstructuraDatosH\\LabEstructuraDatos\\PECL1\\Aficionado.cpp.o  -I. -I.  -gdwarf-2  -O0  -Wall"
+ }, {
+  "file": "C:\\Users\\vecto\\Documents\\GitHubLabEstructuraDatosH\\LabEstructuraDatos\\PECL1\\Pila.cpp",
+  "directory": "C:\\Users\\vecto\\Documents\\GitHubLabEstructuraDatosH\\LabEstructuraDatos\\PECL1",
+  "command": "clang++ -c C:\\Users\\vecto\\Documents\\GitHubLabEstructuraDatosH\\LabEstructuraDatos\\PECL1\\Pila.cpp -o C:\\Users\\vecto\\Documents\\GitHubLabEstructuraDatosH\\LabEstructuraDatos\\PECL1\\Pila.cpp.o  -I. -I.  -gdwarf-2  -O0  -Wall"
+ }, {
+  "file": "C:\\Users\\vecto\\Documents\\GitHubLabEstructuraDatosH\\LabEstructuraDatos\\PECL1\\NodoCola.cpp",
+  "directory": "C:\\Users\\vecto\\Documents\\GitHubLabEstructuraDatosH\\LabEstructuraDatos\\PECL1",
+  "command": "clang++ -c C:\\Users\\vecto\\Documents\\GitHubLabEstructuraDatosH\\LabEstructuraDatos\\PECL1\\NodoCola.cpp -o C:\\Users\\vecto\\Documents\\GitHubLabEstructuraDatosH\\LabEstructuraDatos\\PECL1\\NodoCola.cpp.o  -I. -I.  -gdwarf-2  -O0  -Wall"
+ }, {
+  "file": "C:\\Users\\vecto\\Documents\\GitHubLabEstructuraDatosH\\LabEstructuraDatos\\PECL1\\NodoPila.cpp",
+  "directory": "C:\\Users\\vecto\\Documents\\GitHubLabEstructuraDatosH\\LabEstructuraDatos\\PECL1",
+  "command": "clang++ -c C:\\Users\\vecto\\Documents\\GitHubLabEstructuraDatosH\\LabEstructuraDatos\\PECL1\\NodoPila.cpp -o C:\\Users\\vecto\\Documents\\GitHubLabEstructuraDatosH\\LabEstructuraDatos\\PECL1\\NodoPila.cpp.o  -I. -I.  -gdwarf-2  -O0  -Wall"
+ }, {
+  "file": "C:\\Users\\vecto\\Documents\\GitHubLabEstructuraDatosH\\LabEstructuraDatos\\PECL1\\NodoLista.cpp",
+  "directory": "C:\\Users\\vecto\\Documents\\GitHubLabEstructuraDatosH\\LabEstructuraDatos\\PECL1",
+  "command": "clang++ -c C:\\Users\\vecto\\Documents\\GitHubLabEstructuraDatosH\\LabEstructuraDatos\\PECL1\\NodoLista.cpp -o C:\\Users\\vecto\\Documents\\GitHubLabEstructuraDatosH\\LabEstructuraDatos\\PECL1\\NodoLista.cpp.o  -I. -I.  -gdwarf-2  -O0  -Wall"
+ }, {
+  "file": "C:\\Users\\vecto\\Documents\\GitHubLabEstructuraDatosH\\LabEstructuraDatos\\PECL1\\Gestor.cpp",
+  "directory": "C:\\Users\\vecto\\Documents\\GitHubLabEstructuraDatosH\\LabEstructuraDatos\\PECL1",
+  "command": "clang++ -c C:\\Users\\vecto\\Documents\\GitHubLabEstructuraDatosH\\LabEstructuraDatos\\PECL1\\Gestor.cpp -o C:\\Users\\vecto\\Documents\\GitHubLabEstructuraDatosH\\LabEstructuraDatos\\PECL1\\Gestor.cpp.o  -I. -I.  -gdwarf-2  -O0  -Wall"
+ }, {
+  "file": "C:\\Users\\vecto\\Documents\\GitHubLabEstructuraDatosH\\LabEstructuraDatos\\PECL1\\Cola.cpp",
+  "directory": "C:\\Users\\vecto\\Documents\\GitHubLabEstructuraDatosH\\LabEstructuraDatos\\PECL1",
+  "command": "clang++ -c C:\\Users\\vecto\\Documents\\GitHubLabEstructuraDatosH\\LabEstructuraDatos\\PECL1\\Cola.cpp -o C:\\Users\\vecto\\Documents\\GitHubLabEstructuraDatosH\\LabEstructuraDatos\\PECL1\\Cola.cpp.o  -I. -I.  -gdwarf-2  -O0  -Wall"
+ }, {
   "file": "C:\\Users\\vecto\\Documents\\GitHubLabEstructuraDatosH\\LabEstructuraDatos\\ejemploCola\\Cola.hpp",
   "directory": "C:\\Users\\vecto\\Documents\\GitHubLabEstructuraDatosH\\LabEstructuraDatos\\ejemploCola",
   "command": "clang++ -c C:\\Users\\vecto\\Documents\\GitHubLabEstructuraDatosH\\LabEstructuraDatos\\ejemploCola\\Cola.hpp -o C:\\Users\\vecto\\Documents\\GitHubLabEstructuraDatosH\\LabEstructuraDatos\\ejemploCola\\Cola.hpp.o  -I. -I.  -gdwarf-2  -O0  -Wall"
