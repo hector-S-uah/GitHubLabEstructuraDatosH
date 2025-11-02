@@ -1,8 +1,8 @@
 .PHONY: clean All
 
 All:
-	@echo "----------Building project:[ PECL1 - Debug ]----------"
-	@cd "PECL1" && "$(MAKE)" -f  "PECL1.mk"
+	@echo "----------Building project:[ PECLSanzDelOlmoHector - Debug ]----------"
+	@cd "PECLSanzDelOlmoHector" && "$(MAKE)" -f  "PECLSanzDelOlmoHector.mk"
 clean:
-	@echo "----------Cleaning project:[ PECL1 - Debug ]----------"
-	@cd "PECL1" && "$(MAKE)" -f  "PECL1.mk" clean
+	@echo "----------Cleaning project:[ PECLSanzDelOlmoHector - Debug ]----------"
+	@cd "PECLSanzDelOlmoHector" && "$(MAKE)" -f  "PECLSanzDelOlmoHector.mk" clean
