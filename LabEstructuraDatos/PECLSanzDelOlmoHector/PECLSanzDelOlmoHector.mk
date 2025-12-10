@@ -14,7 +14,7 @@ CurrentFileName        :=
 CurrentFilePath        :=
 CurrentFileFullPath    :=
 User                   :=vecto
-Date                   :=11/2/2025
+Date                   :=12/10/2025
 CodeLitePath           :=C:/Users/vecto/Desktop/codelite-amd64-17.0.0/codelite
 MakeDirCommand         :=mkdir
 LinkerName             :=g++
@@ -64,8 +64,8 @@ AS       := as
 ## User defined environment variables
 ##
 CodeLiteDir:=C:\Users\vecto\Downloads\codelite-amd64-17.0.0\codelite-amd64-17.0.0\codelite
-Objects0=$(IntermediateDirectory)/Pila.cpp$(ObjectSuffix) $(IntermediateDirectory)/NodoLista.cpp$(ObjectSuffix) $(IntermediateDirectory)/NodoCola.cpp$(ObjectSuffix) $(IntermediateDirectory)/Aficionado.cpp$(ObjectSuffix) $(IntermediateDirectory)/NodoPila.cpp$(ObjectSuffix) $(IntermediateDirectory)/Gestor.cpp$(ObjectSuffix) $(IntermediateDirectory)/NodoArbol.cpp$(ObjectSuffix) $(IntermediateDirectory)/Cola.cpp$(ObjectSuffix) $(IntermediateDirectory)/Arbol.cpp$(ObjectSuffix) $(IntermediateDirectory)/main.cpp$(ObjectSuffix) \
-	$(IntermediateDirectory)/Lista.cpp$(ObjectSuffix) 
+Objects0=$(IntermediateDirectory)/Aficionado.cpp$(ObjectSuffix) $(IntermediateDirectory)/Arbol.cpp$(ObjectSuffix) $(IntermediateDirectory)/main.cpp$(ObjectSuffix) $(IntermediateDirectory)/Lista.cpp$(ObjectSuffix) $(IntermediateDirectory)/Cola.cpp$(ObjectSuffix) $(IntermediateDirectory)/NodoArbol.cpp$(ObjectSuffix) $(IntermediateDirectory)/NodoCola.cpp$(ObjectSuffix) $(IntermediateDirectory)/Gestor.cpp$(ObjectSuffix) $(IntermediateDirectory)/NodoLista.cpp$(ObjectSuffix) $(IntermediateDirectory)/Pila.cpp$(ObjectSuffix) \
+	$(IntermediateDirectory)/NodoPila.cpp$(ObjectSuffix) 
 
 
 
@@ -96,45 +96,10 @@ PreBuild:
 ##
 ## Objects
 ##
-$(IntermediateDirectory)/Pila.cpp$(ObjectSuffix): Pila.cpp 
-	$(CXX) $(IncludePCH) $(SourceSwitch) "C:/Users/vecto/Documents/GitHubLabEstructuraDatosH/LabEstructuraDatos/PECLSanzDelOlmoHector/Pila.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/Pila.cpp$(ObjectSuffix) $(IncludePath)
-$(IntermediateDirectory)/Pila.cpp$(PreprocessSuffix): Pila.cpp
-	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/Pila.cpp$(PreprocessSuffix) Pila.cpp
-
-$(IntermediateDirectory)/NodoLista.cpp$(ObjectSuffix): NodoLista.cpp 
-	$(CXX) $(IncludePCH) $(SourceSwitch) "C:/Users/vecto/Documents/GitHubLabEstructuraDatosH/LabEstructuraDatos/PECLSanzDelOlmoHector/NodoLista.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/NodoLista.cpp$(ObjectSuffix) $(IncludePath)
-$(IntermediateDirectory)/NodoLista.cpp$(PreprocessSuffix): NodoLista.cpp
-	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/NodoLista.cpp$(PreprocessSuffix) NodoLista.cpp
-
-$(IntermediateDirectory)/NodoCola.cpp$(ObjectSuffix): NodoCola.cpp 
-	$(CXX) $(IncludePCH) $(SourceSwitch) "C:/Users/vecto/Documents/GitHubLabEstructuraDatosH/LabEstructuraDatos/PECLSanzDelOlmoHector/NodoCola.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/NodoCola.cpp$(ObjectSuffix) $(IncludePath)
-$(IntermediateDirectory)/NodoCola.cpp$(PreprocessSuffix): NodoCola.cpp
-	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/NodoCola.cpp$(PreprocessSuffix) NodoCola.cpp
-
 $(IntermediateDirectory)/Aficionado.cpp$(ObjectSuffix): Aficionado.cpp 
 	$(CXX) $(IncludePCH) $(SourceSwitch) "C:/Users/vecto/Documents/GitHubLabEstructuraDatosH/LabEstructuraDatos/PECLSanzDelOlmoHector/Aficionado.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/Aficionado.cpp$(ObjectSuffix) $(IncludePath)
 $(IntermediateDirectory)/Aficionado.cpp$(PreprocessSuffix): Aficionado.cpp
 	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/Aficionado.cpp$(PreprocessSuffix) Aficionado.cpp
-
-$(IntermediateDirectory)/NodoPila.cpp$(ObjectSuffix): NodoPila.cpp 
-	$(CXX) $(IncludePCH) $(SourceSwitch) "C:/Users/vecto/Documents/GitHubLabEstructuraDatosH/LabEstructuraDatos/PECLSanzDelOlmoHector/NodoPila.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/NodoPila.cpp$(ObjectSuffix) $(IncludePath)
-$(IntermediateDirectory)/NodoPila.cpp$(PreprocessSuffix): NodoPila.cpp
-	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/NodoPila.cpp$(PreprocessSuffix) NodoPila.cpp
-
-$(IntermediateDirectory)/Gestor.cpp$(ObjectSuffix): Gestor.cpp 
-	$(CXX) $(IncludePCH) $(SourceSwitch) "C:/Users/vecto/Documents/GitHubLabEstructuraDatosH/LabEstructuraDatos/PECLSanzDelOlmoHector/Gestor.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/Gestor.cpp$(ObjectSuffix) $(IncludePath)
-$(IntermediateDirectory)/Gestor.cpp$(PreprocessSuffix): Gestor.cpp
-	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/Gestor.cpp$(PreprocessSuffix) Gestor.cpp
-
-$(IntermediateDirectory)/NodoArbol.cpp$(ObjectSuffix): NodoArbol.cpp 
-	$(CXX) $(IncludePCH) $(SourceSwitch) "C:/Users/vecto/Documents/GitHubLabEstructuraDatosH/LabEstructuraDatos/PECLSanzDelOlmoHector/NodoArbol.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/NodoArbol.cpp$(ObjectSuffix) $(IncludePath)
-$(IntermediateDirectory)/NodoArbol.cpp$(PreprocessSuffix): NodoArbol.cpp
-	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/NodoArbol.cpp$(PreprocessSuffix) NodoArbol.cpp
-
-$(IntermediateDirectory)/Cola.cpp$(ObjectSuffix): Cola.cpp 
-	$(CXX) $(IncludePCH) $(SourceSwitch) "C:/Users/vecto/Documents/GitHubLabEstructuraDatosH/LabEstructuraDatos/PECLSanzDelOlmoHector/Cola.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/Cola.cpp$(ObjectSuffix) $(IncludePath)
-$(IntermediateDirectory)/Cola.cpp$(PreprocessSuffix): Cola.cpp
-	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/Cola.cpp$(PreprocessSuffix) Cola.cpp
 
 $(IntermediateDirectory)/Arbol.cpp$(ObjectSuffix): Arbol.cpp 
 	$(CXX) $(IncludePCH) $(SourceSwitch) "C:/Users/vecto/Documents/GitHubLabEstructuraDatosH/LabEstructuraDatos/PECLSanzDelOlmoHector/Arbol.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/Arbol.cpp$(ObjectSuffix) $(IncludePath)
@@ -150,6 +115,41 @@ $(IntermediateDirectory)/Lista.cpp$(ObjectSuffix): Lista.cpp
 	$(CXX) $(IncludePCH) $(SourceSwitch) "C:/Users/vecto/Documents/GitHubLabEstructuraDatosH/LabEstructuraDatos/PECLSanzDelOlmoHector/Lista.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/Lista.cpp$(ObjectSuffix) $(IncludePath)
 $(IntermediateDirectory)/Lista.cpp$(PreprocessSuffix): Lista.cpp
 	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/Lista.cpp$(PreprocessSuffix) Lista.cpp
+
+$(IntermediateDirectory)/Cola.cpp$(ObjectSuffix): Cola.cpp 
+	$(CXX) $(IncludePCH) $(SourceSwitch) "C:/Users/vecto/Documents/GitHubLabEstructuraDatosH/LabEstructuraDatos/PECLSanzDelOlmoHector/Cola.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/Cola.cpp$(ObjectSuffix) $(IncludePath)
+$(IntermediateDirectory)/Cola.cpp$(PreprocessSuffix): Cola.cpp
+	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/Cola.cpp$(PreprocessSuffix) Cola.cpp
+
+$(IntermediateDirectory)/NodoArbol.cpp$(ObjectSuffix): NodoArbol.cpp 
+	$(CXX) $(IncludePCH) $(SourceSwitch) "C:/Users/vecto/Documents/GitHubLabEstructuraDatosH/LabEstructuraDatos/PECLSanzDelOlmoHector/NodoArbol.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/NodoArbol.cpp$(ObjectSuffix) $(IncludePath)
+$(IntermediateDirectory)/NodoArbol.cpp$(PreprocessSuffix): NodoArbol.cpp
+	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/NodoArbol.cpp$(PreprocessSuffix) NodoArbol.cpp
+
+$(IntermediateDirectory)/NodoCola.cpp$(ObjectSuffix): NodoCola.cpp 
+	$(CXX) $(IncludePCH) $(SourceSwitch) "C:/Users/vecto/Documents/GitHubLabEstructuraDatosH/LabEstructuraDatos/PECLSanzDelOlmoHector/NodoCola.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/NodoCola.cpp$(ObjectSuffix) $(IncludePath)
+$(IntermediateDirectory)/NodoCola.cpp$(PreprocessSuffix): NodoCola.cpp
+	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/NodoCola.cpp$(PreprocessSuffix) NodoCola.cpp
+
+$(IntermediateDirectory)/Gestor.cpp$(ObjectSuffix): Gestor.cpp 
+	$(CXX) $(IncludePCH) $(SourceSwitch) "C:/Users/vecto/Documents/GitHubLabEstructuraDatosH/LabEstructuraDatos/PECLSanzDelOlmoHector/Gestor.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/Gestor.cpp$(ObjectSuffix) $(IncludePath)
+$(IntermediateDirectory)/Gestor.cpp$(PreprocessSuffix): Gestor.cpp
+	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/Gestor.cpp$(PreprocessSuffix) Gestor.cpp
+
+$(IntermediateDirectory)/NodoLista.cpp$(ObjectSuffix): NodoLista.cpp 
+	$(CXX) $(IncludePCH) $(SourceSwitch) "C:/Users/vecto/Documents/GitHubLabEstructuraDatosH/LabEstructuraDatos/PECLSanzDelOlmoHector/NodoLista.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/NodoLista.cpp$(ObjectSuffix) $(IncludePath)
+$(IntermediateDirectory)/NodoLista.cpp$(PreprocessSuffix): NodoLista.cpp
+	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/NodoLista.cpp$(PreprocessSuffix) NodoLista.cpp
+
+$(IntermediateDirectory)/Pila.cpp$(ObjectSuffix): Pila.cpp 
+	$(CXX) $(IncludePCH) $(SourceSwitch) "C:/Users/vecto/Documents/GitHubLabEstructuraDatosH/LabEstructuraDatos/PECLSanzDelOlmoHector/Pila.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/Pila.cpp$(ObjectSuffix) $(IncludePath)
+$(IntermediateDirectory)/Pila.cpp$(PreprocessSuffix): Pila.cpp
+	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/Pila.cpp$(PreprocessSuffix) Pila.cpp
+
+$(IntermediateDirectory)/NodoPila.cpp$(ObjectSuffix): NodoPila.cpp 
+	$(CXX) $(IncludePCH) $(SourceSwitch) "C:/Users/vecto/Documents/GitHubLabEstructuraDatosH/LabEstructuraDatos/PECLSanzDelOlmoHector/NodoPila.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/NodoPila.cpp$(ObjectSuffix) $(IncludePath)
+$(IntermediateDirectory)/NodoPila.cpp$(PreprocessSuffix): NodoPila.cpp
+	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/NodoPila.cpp$(PreprocessSuffix) NodoPila.cpp
 
 ##
 ## Clean

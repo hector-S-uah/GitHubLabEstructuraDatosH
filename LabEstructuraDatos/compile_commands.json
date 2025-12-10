@@ -1,4 +1,24 @@
 [{
+  "file": "C:\\Users\\vecto\\Documents\\GitHubLabEstructuraDatosH\\LabEstructuraDatos\\EjemploArbolBinario\\NodoArbol.hpp",
+  "directory": "C:\\Users\\vecto\\Documents\\GitHubLabEstructuraDatosH\\LabEstructuraDatos\\EjemploArbolBinario",
+  "command": "clang++ -c C:\\Users\\vecto\\Documents\\GitHubLabEstructuraDatosH\\LabEstructuraDatos\\EjemploArbolBinario\\NodoArbol.hpp -o C:\\Users\\vecto\\Documents\\GitHubLabEstructuraDatosH\\LabEstructuraDatos\\EjemploArbolBinario\\NodoArbol.hpp.o  -I. -I.  -gdwarf-2  -O0  -Wall"
+ }, {
+  "file": "C:\\Users\\vecto\\Documents\\GitHubLabEstructuraDatosH\\LabEstructuraDatos\\EjemploArbolBinario\\NodoArbol.cpp",
+  "directory": "C:\\Users\\vecto\\Documents\\GitHubLabEstructuraDatosH\\LabEstructuraDatos\\EjemploArbolBinario",
+  "command": "clang++ -c C:\\Users\\vecto\\Documents\\GitHubLabEstructuraDatosH\\LabEstructuraDatos\\EjemploArbolBinario\\NodoArbol.cpp -o C:\\Users\\vecto\\Documents\\GitHubLabEstructuraDatosH\\LabEstructuraDatos\\EjemploArbolBinario\\NodoArbol.cpp.o  -I. -I.  -gdwarf-2  -O0  -Wall"
+ }, {
+  "file": "C:\\Users\\vecto\\Documents\\GitHubLabEstructuraDatosH\\LabEstructuraDatos\\EjemploArbolBinario\\Arbol.hpp",
+  "directory": "C:\\Users\\vecto\\Documents\\GitHubLabEstructuraDatosH\\LabEstructuraDatos\\EjemploArbolBinario",
+  "command": "clang++ -c C:\\Users\\vecto\\Documents\\GitHubLabEstructuraDatosH\\LabEstructuraDatos\\EjemploArbolBinario\\Arbol.hpp -o C:\\Users\\vecto\\Documents\\GitHubLabEstructuraDatosH\\LabEstructuraDatos\\EjemploArbolBinario\\Arbol.hpp.o  -I. -I.  -gdwarf-2  -O0  -Wall"
+ }, {
+  "file": "C:\\Users\\vecto\\Documents\\GitHubLabEstructuraDatosH\\LabEstructuraDatos\\EjemploArbolBinario\\Arbol.cpp",
+  "directory": "C:\\Users\\vecto\\Documents\\GitHubLabEstructuraDatosH\\LabEstructuraDatos\\EjemploArbolBinario",
+  "command": "clang++ -c C:\\Users\\vecto\\Documents\\GitHubLabEstructuraDatosH\\LabEstructuraDatos\\EjemploArbolBinario\\Arbol.cpp -o C:\\Users\\vecto\\Documents\\GitHubLabEstructuraDatosH\\LabEstructuraDatos\\EjemploArbolBinario\\Arbol.cpp.o  -I. -I.  -gdwarf-2  -O0  -Wall"
+ }, {
+  "file": "C:\\Users\\vecto\\Documents\\GitHubLabEstructuraDatosH\\LabEstructuraDatos\\EjemploArbolBinario\\main.cpp",
+  "directory": "C:\\Users\\vecto\\Documents\\GitHubLabEstructuraDatosH\\LabEstructuraDatos\\EjemploArbolBinario",
+  "command": "clang++ -c C:\\Users\\vecto\\Documents\\GitHubLabEstructuraDatosH\\LabEstructuraDatos\\EjemploArbolBinario\\main.cpp -o C:\\Users\\vecto\\Documents\\GitHubLabEstructuraDatosH\\LabEstructuraDatos\\EjemploArbolBinario\\main.cpp.o  -I. -I.  -gdwarf-2  -O0  -Wall"
+ }, {
   "file": "C:\\Users\\vecto\\Documents\\GitHubLabEstructuraDatosH\\LabEstructuraDatos\\PECLSanzDelOlmoHector\\Arbol.hpp",
   "directory": "C:\\Users\\vecto\\Documents\\GitHubLabEstructuraDatosH\\LabEstructuraDatos\\PECLSanzDelOlmoHector",
   "command": "clang++ -c C:\\Users\\vecto\\Documents\\GitHubLabEstructuraDatosH\\LabEstructuraDatos\\PECLSanzDelOlmoHector\\Arbol.hpp -o C:\\Users\\vecto\\Documents\\GitHubLabEstructuraDatosH\\LabEstructuraDatos\\PECLSanzDelOlmoHector\\Arbol.hpp.o  -I. -I.  -gdwarf-2  -O0  -Wall"

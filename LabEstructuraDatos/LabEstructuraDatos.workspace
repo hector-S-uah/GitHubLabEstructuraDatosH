@@ -18,6 +18,7 @@
   <Project Name="ejemploPila" Path="ejemploPila/ejemploPila.project" Active="No"/>
   <Project Name="ejemploCola" Path="ejemploCola/ejemploCola.project" Active="No"/>
   <Project Name="PECLSanzDelOlmoHector" Path="PECLSanzDelOlmoHector/PECLSanzDelOlmoHector.project" Active="Yes"/>
+  <Project Name="EjemploArbolBinario" Path="EjemploArbolBinario/EjemploArbolBinario.project" Active="No"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug">
       <Environment/>
@@ -39,6 +40,7 @@
       <Project Name="ejemploPila" ConfigName="Debug"/>
       <Project Name="ejemploCola" ConfigName="Debug"/>
       <Project Name="PECLSanzDelOlmoHector" ConfigName="Debug"/>
+      <Project Name="EjemploArbolBinario" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release">
       <Environment/>
@@ -60,6 +62,7 @@
       <Project Name="ejemploPila" ConfigName="Release"/>
       <Project Name="ejemploCola" ConfigName="Release"/>
       <Project Name="PECLSanzDelOlmoHector" ConfigName="Release"/>
+      <Project Name="EjemploArbolBinario" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>

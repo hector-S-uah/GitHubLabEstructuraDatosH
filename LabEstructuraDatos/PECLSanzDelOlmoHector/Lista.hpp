@@ -14,6 +14,7 @@ public:
 	void insertar(Aficionado* aficionado);
 	void buscar();//muestra primer aficionado en acceder(primero en lista), ultimo socio en acceder, primer simpatizante en acceder, y ultimo aficionado en acceder al estadio(ultimo de la lista)
 	int getLongitudLista();
+	Aficionado* extraerPrimero();
 	void vaciarLista();
 	
 private:

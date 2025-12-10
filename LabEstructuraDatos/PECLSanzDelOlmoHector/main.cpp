@@ -16,7 +16,7 @@ int main(int argc, char** argv)
 			 << "\n\tAficionados en las colas:\n \t\tSocios-> " <<gestor.SociosEnCola()<< "\tSimpatizantes-> "
 			 <<gestor.SimpatizantesEnCola()
 			 << " \n\tAficionados en la lista -> " <<gestor.AficionadosEnLista()
-			 << "\n\tAficionados en el arbol -> " << 0							  /*gestor.AficionadosEnArbol()*/
+			 << "\n\tAficionados en el arbol -> " << gestor.AficionadosEnArbol()
 			 << "\n";
 		cout << "\t----------------------------------------------------------------"
 				"------\n\n";
@@ -88,28 +88,42 @@ int main(int argc, char** argv)
 			gestor.reiniciar();
 			break;
 		case 'K':
-			//...;
+			gestor.crearYDibujarArbol();
 			break;
 		case 'L':
-			//...;
+			gestor.mostrarSociosAbb();
 			break;
 		case 'M':
-			//...;
+			gestor.mostrarSimpatizantesAbb();
 			break;
 		case 'N':
-			//...;
+			gestor.mostrarAficionadosAbb();
 			break;
 		case 'O':
-			//...;
+			gestor.buscarAbb();;
 			break;
 		case 'P':
-			//...;
+			gestor.contarParesAbb();;
 			break;
 		case 'Q':
-			//...;
+			gestor.mostrarHojasAbb();;
 			break;
 		case 'R':
-			//...;
+			{ // Usamos un bloque para declarar ID_a_eliminar
+        int ID_a_eliminar;
+        cout << "\tIngrese el ID del aficionado a eliminar: ";
+        if (cin >> ID_a_eliminar) {
+            // El gestor debe mostrar el arbol antes y despues de la llamada a esta funcion
+            // Aquí solo hacemos la llamada para mantener la conexión.
+			gestor.dibujarArbol();
+            gestor.eliminarAficionado(ID_a_eliminar); 
+			gestor.dibujarArbol();
+			
+        } else {
+            cout << "\tEntrada invalida. Cancelando eliminacion." << endl;
+            cin.clear(); cin.ignore(10000, '\n'); // Limpiar buffer en caso de error
+        }
+    }
 			break;
 		case 'S':
 			cout << "Saliendo del programa...\n";

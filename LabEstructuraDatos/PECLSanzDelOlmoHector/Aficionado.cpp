@@ -16,10 +16,10 @@ bool Aficionado:: esSocio(){
 	return this->socio;
 }
 void Aficionado::mostrar(){
-	string estado=" no es socio ";
+	string estado=" Simpatizante ";
 	if(socio){
-		estado=" es socio ";
+		estado=" Socio ";
 	}
-	cout <<"\t"<< setw(10)<< "El anfitrion con ID: "<<ID<<" entro a las 18:"<<setw(2)<<setfill('0')<<hora<<", "<<estado<< endl;
+	cout <<"\t"<< "ID: "<<setw(2)<<setfill('0')<<ID<<" Hora: 18:"<<setw(2)<<setfill('0')<<hora<<", "<<"Tipo: "<<estado<< endl;
 }
 Aficionado::~Aficionado() {}

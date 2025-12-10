@@ -6,6 +6,28 @@ Lista::Lista()
 	ultimo=NULL;
 	longitud=0;
 }
+Aficionado* Lista::extraerPrimero() {
+    if (primero == NULL) {
+        return NULL;
+    }
+    
+    pnodoLista nodo = primero;
+    Aficionado* aficionadoExtraido = nodo->aficionado;
+    
+    primero = primero->siguiente;
+    if (primero) {
+        primero->anterior = NULL;
+    } else {
+        // La lista quedó vacía
+        ultimo = NULL;
+    }
+    
+    // NO borramos el aficionado, solo el nodo (la caja), 
+    // porque el aficionado se lo lleva el árbol.
+    delete nodo; 
+    longitud--;
+    return aficionadoExtraido;
+}
 void Lista::insertar(Aficionado* aficionado){
 	pnodoLista nuevo = new NodoLista(aficionado);
 	longitud++;
